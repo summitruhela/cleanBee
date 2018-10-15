@@ -1,0 +1,11 @@
+const global = require('../helper/globalRoutes')
+// global.router.post('/searchLaundry',global.authHandler.auth_func, global.laundry.searchLaundry)
+//global.router.post('/searchLaundry', global.laundry.searchLaundry)
+global.router.post('/laundryLocation', global.authHandler.auth_func,global.laundry.laundryLocation)
+global.router.post('/laundryDetails', global.authHandler.auth_func,global.laundry.laundryDetails)
+global.router.get('/listOflaundry',global.authHandler.auth_func,global.laundry.listOflaundry)
+// global.router.post('/searchlaundry',global.authHandler.auth_func,global.laundry.searchlaundry)
+global.router.post('/searchlaundry',global.laundry.searchLaundry)
+global.router.post('/addLaundry', global.laundry.addLaundry)
+global.router.post('/AddlaundryByAdmin',global.laundry.AddlaundryByAdmin)
+module.exports = global.router;

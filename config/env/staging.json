@@ -1,0 +1,31 @@
+{
+	"project_name" : "CLEANBEE",
+	"version" : "v1",
+	"base_url" : "http://162.222.32.20:1441",	
+	"secret_key":"secre@tke@y",
+    "token_expiry_time":"10h",
+    "port":1441,
+	"db":{
+		"host":"localhost",
+		"user":"mobiloitte",
+		"pass":"mobiloitte123",
+		"name":"cleanBee"		
+	},
+    "twilio": {
+        "sid": "AC0d2d1b1c5451771ceae267078e6dc23c",
+        "auth_token": "47f40a9fb853be19603855af4e8f2962",
+        "number":"+17156021582"
+        },
+    "speakeasy":{
+        "secret_key":""
+    },
+    "nodemailer":{
+        "pass": "phonegap@01groc1",
+        "user": "phonegapgroceries@gmail.com"
+    },
+    "cloudinary":{
+      "CLOUD_NAME"   : "dnjgq0lig",
+      "API_KEY"      : "379715772975671",
+      "API_SECRET"   : "q1nD9YhTet96TbHciRW992XAbMw"
+    }
+}
